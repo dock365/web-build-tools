@@ -1,0 +1,6 @@
+
+/**
+ * @public
+ */
+export class ImportBugBase {
+}

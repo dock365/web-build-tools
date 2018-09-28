@@ -10,6 +10,7 @@
  */
 
 /// <reference types="jest" />
+import { ImportBugBase } from '.';
 
 /**
  * Example of an abstract class that is directly exported.
@@ -194,6 +195,13 @@ export declare interface IMergedInterface {
  * @alpha
  */
 export declare interface IMergedInterfaceReferencee {
+}
+
+/**
+ * @public
+ */
+export declare class ImportBug extends ImportBugBase {
+    member(): ImportBugBase | undefined;
 }
 
 /**

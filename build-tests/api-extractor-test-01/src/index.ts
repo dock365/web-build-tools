@@ -105,3 +105,6 @@ export { default as IInterfaceAsDefaultExport } from './IInterfaceAsDefaultExpor
 export { ReexportedClass1 as ReexportedClass } from './ReexportedClass1';
 
 export { TypeReferencesInAedoc as _TypeReferencesInAedoc } from './TypeReferencesInAedoc';
+
+export { ImportBug } from './import-bug/ImportBug';
+export * from './import-bug'

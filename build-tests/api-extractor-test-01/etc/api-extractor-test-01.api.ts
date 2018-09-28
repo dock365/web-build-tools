@@ -101,6 +101,16 @@ interface IMergedInterface {
 interface IMergedInterfaceReferencee {
 }
 
+// @public (undocumented)
+class ImportBug extends ImportBugBase {
+  // (undocumented)
+  member(): ImportBugBase | undefined;
+}
+
+// @public (undocumented)
+class ImportBugBase {
+}
+
 // @public
 interface ISimpleInterface {
 }
